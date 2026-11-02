@@ -1,0 +1,3083 @@
+{
+ "brand": "Notes",
+ "draft": true,
+ "openLists": false,
+ "credit": "David Izmailov",
+ "title": {
+  "az": "Notes Gastronomy & Bar",
+  "ru": "Notes Gastronomy & Bar",
+  "en": "Notes Gastronomy & Bar"
+ },
+ "phone": "+994105551050",
+ "phoneDisplay": "+994 10 555 10 50",
+ "email": "info@notes.az",
+ "address": {
+  "az": "Bakı, Rəşid Behbudov küçəsi, 41",
+  "ru": "Баку, улица Рашида Бейбутова, 41",
+  "en": "41 Rashid Behbudov St, Baku"
+ },
+ "mapUrl": "https://www.google.com/maps/place/Notes+Gastronomy%26Bar/@40.3769566,49.8451627,17z",
+ "instagram": {
+  "handle": "@notes.gastronomybar",
+  "url": "https://www.instagram.com/notes.gastronomybar/"
+ },
+ "facebook": "https://www.facebook.com/notes.gastronomybar",
+ "youtube": "https://www.youtube.com/@NotesGastronomyBar",
+ "delivery": "https://operagroupdelivery.az/az/",
+ "hours": {
+  "weekday": {
+   "open": "11:00",
+   "close": "00:00"
+  },
+  "weekend": {
+   "open": "10:00",
+   "close": "00:00"
+  }
+ },
+ "services": [
+  {
+   "id": "breakfast",
+   "name": {
+    "az": "Səhər yeməyi",
+    "ru": "Завтраки",
+    "en": "Breakfast"
+   },
+   "weekday": [
+    "11:00",
+    "13:00"
+   ],
+   "weekend": [
+    "10:00",
+    "15:00"
+   ],
+   "to": "breakfast"
+  },
+  {
+   "id": "bread",
+   "name": {
+    "az": "Çörək sexi",
+    "ru": "Пекарня",
+    "en": "Bakery"
+   },
+   "weekday": [
+    "11:00",
+    "18:00"
+   ],
+   "weekend": [
+    "10:00",
+    "18:00"
+   ],
+   "to": "bread"
+  },
+  {
+   "id": "pizza",
+   "name": {
+    "az": "Pizza",
+    "ru": "Пицца",
+    "en": "Pizza"
+   },
+   "weekday": [
+    "11:00",
+    "19:00"
+   ],
+   "weekend": [
+    "11:00",
+    "19:00"
+   ],
+   "to": "pizza"
+  },
+  {
+   "id": "kitchen",
+   "name": {
+    "az": "Mətbəx",
+    "ru": "Кухня",
+    "en": "Kitchen"
+   },
+   "weekday": [
+    "11:00",
+    "00:00"
+   ],
+   "weekend": [
+    "10:00",
+    "00:00"
+   ],
+   "to": "starters"
+  },
+  {
+   "id": "bar",
+   "name": {
+    "az": "Bar",
+    "ru": "Бар",
+    "en": "Bar"
+   },
+   "weekday": [
+    "11:00",
+    "00:00"
+   ],
+   "weekend": [
+    "10:00",
+    "00:00"
+   ],
+   "to": "bar"
+  }
+ ],
+ "parts": [
+  {
+   "id": "morning",
+   "num": "I",
+   "tempo": "Allegretto",
+   "gloss": {
+    "az": "şən və yüngül",
+    "ru": "весело и легко",
+    "en": "lightly, cheerfully"
+   },
+   "name": {
+    "az": "Səhər",
+    "ru": "Утро",
+    "en": "Morning"
+   },
+   "lead": {
+    "az": "Səhər yeməyi, kruassanlar və öz çörəyimiz",
+    "ru": "Завтраки, круассаны и свой хлеб",
+    "en": "Breakfast, croissants and our own bread"
+   },
+   "photo": "set",
+   "photoAlt": {
+    "az": "Notes set: pomidor yumurta, kükü, pendir, mürəbbə",
+    "ru": "Notes set: яичница с помидорами, кюкю, сыр, варенье",
+    "en": "Notes set: tomato eggs, kuku, cheese, jam"
+   }
+  },
+  {
+   "id": "day",
+   "num": "II",
+   "tempo": "Andante",
+   "gloss": {
+    "az": "addım tempində",
+    "ru": "спокойным шагом",
+    "en": "at a walking pace"
+   },
+   "name": {
+    "az": "Gündüz",
+    "ru": "День",
+    "en": "Day"
+   },
+   "lead": {
+    "az": "Qəlyanaltılar, salatlar, pasta və pizza",
+    "ru": "Закуски, салаты, паста и пицца",
+    "en": "Starters, salads, pasta and pizza"
+   },
+   "photo": "tomato",
+   "photoAlt": {
+    "az": "Səhər bazarından pomidor, nar sousu və mayalanmış çörək",
+    "ru": "Томаты с утреннего рынка, гранатовый соус и хлеб на закваске",
+    "en": "Morning-market tomatoes, pomegranate sauce and sourdough"
+   }
+  },
+  {
+   "id": "evening",
+   "num": "III",
+   "tempo": "Adagio",
+   "gloss": {
+    "az": "yavaş, tələsmədən",
+    "ru": "медленно, не торопясь",
+    "en": "slowly, at ease"
+   },
+   "name": {
+    "az": "Axşam",
+    "ru": "Вечер",
+    "en": "Evening"
+   },
+   "lead": {
+    "az": "Ət, balıq və quş",
+    "ru": "Мясо, рыба и птица",
+    "en": "Meat, fish and poultry"
+   },
+   "photo": "steak",
+   "photoAlt": {
+    "az": "File minyon, kartof püresi və istiot sousu",
+    "ru": "Филе-миньон, картофельное пюре и перечный соус",
+    "en": "Filet mignon, mashed potatoes and pepper sauce"
+   }
+  },
+  {
+   "id": "dolce",
+   "tempo": "Dolce",
+   "gloss": {
+    "az": "şirin və zərif",
+    "ru": "нежно, сладко",
+    "en": "sweetly"
+   },
+   "name": {
+    "az": "Desertlər",
+    "ru": "Десерты",
+    "en": "Desserts"
+   },
+   "lead": {
+    "az": "Qənnadı vitrinası",
+    "ru": "Витрина кондитерской",
+    "en": "The pastry counter"
+   }
+  },
+  {
+   "id": "bar",
+   "num": "IV",
+   "tempo": "Con spirito",
+   "gloss": {
+    "az": "ruh yüksəkliyi ilə",
+    "ru": "с воодушевлением",
+    "en": "with spirit"
+   },
+   "name": {
+    "az": "Bar",
+    "ru": "Бар",
+    "en": "Bar"
+   },
+   "lead": {
+    "az": "Kokteyllər, şərab, qəhvə və çay",
+    "ru": "Коктейли, вино, кофе и чай",
+    "en": "Cocktails, wine, coffee and tea"
+   },
+   "photo": "bar",
+   "photoAlt": {
+    "az": "Notes barı: mərmər piştaxta və göy kreslolar",
+    "ru": "Бар Notes: мраморная стойка и синие стулья",
+    "en": "The Notes bar: a marble counter and blue stools"
+   }
+  }
+ ],
+ "kitchen": [
+  {
+   "id": "breakfast",
+   "part": "morning",
+   "service": "breakfast",
+   "photo": "eggs",
+   "photoAlt": {
+    "az": "Kopenhagen yumurtası, qızılbalıq və quakamole",
+    "ru": "Яйца «Копенгаген» с лососем и гуакамоле",
+    "en": "Copenhagen eggs with salmon and guacamole"
+   },
+   "name": {
+    "az": "Səhər yeməyi",
+    "ru": "Завтраки",
+    "en": "Breakfast"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Notes set",
+      "ru": "Notes set",
+      "en": "Notes set"
+     },
+     "price": 35,
+     "desc": {
+      "az": "Pomidor yumurta, göyərti küküsü, hisə verilmiş dana əti, təzə tərəvəzlər, ev sayağı pendir, ev sayağı kərə yağı, mürəbbə, çörək, çay",
+      "ru": "Яичница с помидорами, кюкю с зеленью, копчёная говядина, свежие овощи, домашний сыр, домашнее сливочное масло, варенье, хлеб, чай",
+      "en": "Tomato eggs, herb kuku, smoked beef, fresh vegetables, homemade cheese, homemade butter, jam, bread, tea"
+     },
+     "sig": true
+    },
+    {
+     "name": {
+      "az": "Qızardılmış hallumi pendiri / əncir mürəbbəsi / trüfel yağı / qoz",
+      "ru": "Жареный халлуми / инжирное варенье / трюфельное масло / грецкий орех",
+      "en": "Grilled halloumi / fig jam / truffle oil / walnut"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Yumşaq omlet / hind quşu / rostbif",
+      "ru": "Нежный омлет / индейка / ростбиф",
+      "en": "Soft omelette / turkey / roast beef"
+     },
+     "price": 15
+    },
+    {
+     "name": {
+      "az": "Omlet / straçatella / qurudulmuş pomidor",
+      "ru": "Омлет / страчателла / вяленые томаты",
+      "en": "Omelette / stracciatella / sun-dried tomatoes"
+     },
+     "price": 14
+    },
+    {
+     "name": {
+      "az": "Pide / quzu əti / mozzarella / xüsusi sous / ədviyyatlar",
+      "ru": "Пиде / баранина / моцарелла / фирменный соус / специи",
+      "en": "Pide / lamb / mozzarella / house sauce / spices"
+     },
+     "price": 24
+    },
+    {
+     "name": {
+      "az": "Pide / krevet / mozzarella / xüsusi sous / keçi pendiri",
+      "ru": "Пиде / креветки / моцарелла / фирменный соус / козий сыр",
+      "en": "Pide / shrimp / mozzarella / house sauce / goat cheese"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Kopenhagen yumurtası / qızılbalıq / quakamole",
+      "ru": "Яйца «Копенгаген» / лосось / гуакамоле",
+      "en": "Copenhagen eggs / salmon / guacamole"
+     },
+     "price": 28
+    },
+    {
+     "name": {
+      "az": "Avokado ilə tost / quakamole / qaynadılmış yumurta",
+      "ru": "Тост с авокадо / гуакамоле / варёное яйцо",
+      "en": "Avocado toast / guacamole / boiled egg"
+     },
+     "price": 21
+    },
+    {
+     "name": {
+      "az": "Pörtlənmiş dana yanaqları ilə mini kruassanlar / parmezan",
+      "ru": "Мини-круассаны с томлёными говяжьими щёчками / пармезан",
+      "en": "Mini croissants with braised beef cheeks / parmesan"
+     },
+     "price": 12,
+     "note": {
+      "az": "2 əd.",
+      "ru": "2 шт.",
+      "en": "2 pcs"
+     }
+    },
+    {
+     "name": {
+      "az": "Sendviç / sobada bişmiş çörək / dana döş əti / rukkola / matbuxa sousu",
+      "ru": "Сэндвич / хлеб из печи / говяжья грудинка / руккола / соус матбуха",
+      "en": "Sandwich / oven-baked bread / beef brisket / arugula / matbucha sauce"
+     },
+     "price": 17
+    },
+    {
+     "name": {
+      "az": "Düyü unu ilə sırniklər / giləmeyvə sousu / yoqurt",
+      "ru": "Сырники на рисовой муке / ягодный соус / йогурт",
+      "en": "Rice-flour syrniki / berry sauce / yogurt"
+     },
+     "price": 15
+    },
+    {
+     "name": {
+      "az": "Şokoladlı blinlər / giləmeyvələr",
+      "ru": "Шоколадные блинчики / ягоды",
+      "en": "Chocolate pancakes / berries"
+     },
+     "price": 12,
+     "note": {
+      "az": "6 əd.",
+      "ru": "6 шт.",
+      "en": "6 pcs"
+     }
+    },
+    {
+     "name": {
+      "az": "Kokos südü ilə düyü sıyığı / ananas çatnisi",
+      "ru": "Рисовая каша на кокосовом молоке / ананасовый чатни",
+      "en": "Coconut milk rice porridge / pineapple chutney"
+     },
+     "price": 12
+    }
+   ]
+  },
+  {
+   "id": "extras",
+   "part": "morning",
+   "service": "breakfast",
+   "compact": true,
+   "name": {
+    "az": "Əlavələr",
+    "ru": "Добавки к завтраку",
+    "en": "Breakfast add-ons"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Burrata",
+      "ru": "Буррата",
+      "en": "Burrata"
+     },
+     "price": 10,
+     "note": {
+      "az": "1 əd.",
+      "ru": "1 шт.",
+      "en": "1 pc"
+     }
+    },
+    {
+     "name": {
+      "az": "Straçatella",
+      "ru": "Страчателла",
+      "en": "Stracciatella"
+     },
+     "price": 7,
+     "note": {
+      "az": "100 qr",
+      "ru": "100 г",
+      "en": "100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Avokado",
+      "ru": "Авокадо",
+      "en": "Avocado"
+     },
+     "price": 10,
+     "note": {
+      "az": "100 qr",
+      "ru": "100 г",
+      "en": "100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Ev sayağı pendir",
+      "ru": "Домашний сыр",
+      "en": "Homemade cheese"
+     },
+     "price": 4,
+     "note": {
+      "az": "100 qr",
+      "ru": "100 г",
+      "en": "100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Hindquşu",
+      "ru": "Индейка",
+      "en": "Turkey"
+     },
+     "price": 5,
+     "note": {
+      "az": "50 qr",
+      "ru": "50 г",
+      "en": "50 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Qızılbalıq",
+      "ru": "Лосось",
+      "en": "Salmon"
+     },
+     "price": 13,
+     "note": {
+      "az": "50 qr",
+      "ru": "50 г",
+      "en": "50 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Hisə verilmiş dana əti",
+      "ru": "Копчёная говядина",
+      "en": "Smoked beef"
+     },
+     "price": 15,
+     "note": {
+      "az": "100 qr",
+      "ru": "100 г",
+      "en": "100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Krevet",
+      "ru": "Креветки",
+      "en": "Shrimp"
+     },
+     "price": 12,
+     "note": {
+      "az": "60 qr",
+      "ru": "60 г",
+      "en": "60 g"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pastry",
+   "part": "morning",
+   "photo": "croissant",
+   "photoAlt": {
+    "az": "Kruassan kəsikdə: qat-qat xəmir",
+    "ru": "Круассан в разрезе: слоёное тесто",
+    "en": "A croissant cut open: laminated dough"
+   },
+   "name": {
+    "az": "Kruassanlar və bulkalar",
+    "ru": "Круассаны и булочки",
+    "en": "Croissants & buns"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Klassik kruassan",
+      "ru": "Классический круассан",
+      "en": "Classic croissant"
+     },
+     "price": 6
+    },
+    {
+     "name": {
+      "az": "Kruassan / şokolad kremi / badam",
+      "ru": "Круассан / шоколадный крем / миндаль",
+      "en": "Croissant / chocolate cream / almond"
+     },
+     "price": 9
+    },
+    {
+     "name": {
+      "az": "Kruassan / püstə kremi / püstə",
+      "ru": "Круассан / фисташковый крем / фисташка",
+      "en": "Croissant / pistachio cream / pistachio"
+     },
+     "price": 9
+    },
+    {
+     "name": {
+      "az": "Kruassan / qarağat kremi / maskarpone",
+      "ru": "Круассан / смородиновый крем / маскарпоне",
+      "en": "Croissant / blackcurrant cream / mascarpone"
+     },
+     "price": 9
+    },
+    {
+     "name": {
+      "az": "Maritotso bulkası / moruq / maskarpone kremi",
+      "ru": "Булочка мариторццо / малина / крем маскарпоне",
+      "en": "Maritozzo bun / raspberry / mascarpone cream"
+     },
+     "price": 6
+    },
+    {
+     "name": {
+      "az": "Maritotso bulkası / püstə / maskarpone kremi",
+      "ru": "Булочка мариторццо / фисташка / крем маскарпоне",
+      "en": "Maritozzo bun / pistachio / mascarpone cream"
+     },
+     "price": 6
+    },
+    {
+     "name": {
+      "az": "Almalı «Pomme D’or» / bişirmə krem",
+      "ru": "Яблочный «Pomme D’or» / заварной крем",
+      "en": "Apple «Pomme D’or» / custard"
+     },
+     "price": 10
+    }
+   ]
+  },
+  {
+   "id": "bread",
+   "part": "morning",
+   "service": "bread",
+   "compact": true,
+   "name": {
+    "az": "Çörək sexindən",
+    "ru": "Хлеб из пекарни",
+    "en": "From our bakery"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Çörək səbəti",
+      "ru": "Хлебная корзина",
+      "en": "Bread basket"
+     },
+     "price": 4
+    },
+    {
+     "name": {
+      "az": "Tam taxıllı tartin",
+      "ru": "Цельнозерновой тартин",
+      "en": "Wholegrain tartine"
+     },
+     "price": 3.5,
+     "note": {
+      "az": "450 qr",
+      "ru": "450 г",
+      "en": "450 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Çiabatta",
+      "ru": "Чиабатта",
+      "en": "Ciabatta"
+     },
+     "price": 2.5,
+     "note": {
+      "az": "200 qr",
+      "ru": "200 г",
+      "en": "200 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Qara borodin çörəyi",
+      "ru": "Бородинский хлеб",
+      "en": "Borodinsky rye bread"
+     },
+     "price": 3,
+     "note": {
+      "az": "450 qr",
+      "ru": "450 г",
+      "en": "450 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Brioş",
+      "ru": "Бриошь",
+      "en": "Brioche"
+     },
+     "price": 4,
+     "note": {
+      "az": "200 qr",
+      "ru": "200 г",
+      "en": "200 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Qrissini",
+      "ru": "Гриссини",
+      "en": "Grissini"
+     },
+     "price": 3.5,
+     "note": {
+      "az": "100 qr",
+      "ru": "100 г",
+      "en": "100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Südlü bulkalar",
+      "ru": "Молочные булочки",
+      "en": "Milk buns"
+     },
+     "price": 2,
+     "note": {
+      "az": "2 əd.",
+      "ru": "2 шт.",
+      "en": "2 pcs"
+     }
+    }
+   ]
+  },
+  {
+   "id": "starters",
+   "part": "day",
+   "name": {
+    "az": "Qəlyanaltılar",
+    "ru": "Закуски",
+    "en": "Starters"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Burrata / pomidor / trüfel sousu",
+      "ru": "Буррата / томаты / трюфельный соус",
+      "en": "Burrata / tomato / truffle sauce"
+     },
+     "price": 22
+    },
+    {
+     "name": {
+      "az": "Səhər bazarından pomidor / nar sousu / mayalanmış çörək",
+      "ru": "Томаты с утреннего рынка / гранатовый соус / хлеб на закваске",
+      "en": "Morning-market tomatoes / pomegranate sauce / sourdough"
+     },
+     "price": 15
+    },
+    {
+     "name": {
+      "az": "Badımcan əzməsi / limon mürəbbəsi / straçatella / sobada bişmiş yuxa",
+      "ru": "Баклажанная икра / лимонное варенье / страчателла / лепёшка из печи",
+      "en": "Aubergine purée / lemon jam / stracciatella / oven-baked flatbread"
+     },
+     "price": 16
+    },
+    {
+     "name": {
+      "az": "Gül kələmi karpaçço / brokoli / parmezan",
+      "ru": "Карпаччо из цветной капусты / брокколи / пармезан",
+      "en": "Cauliflower carpaccio / broccoli / parmesan"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Marinə edilmiş zeytun",
+      "ru": "Маринованные оливки",
+      "en": "Marinated olives"
+     },
+     "price": 10
+    },
+    {
+     "name": {
+      "az": "Toyuq paşteti / nar kürüsü / süd çörəyi",
+      "ru": "Куриный паштет / гранатовая икра / молочная булочка",
+      "en": "Chicken pâté / pomegranate pearls / milk bread"
+     },
+     "price": 18
+    },
+    {
+     "name": {
+      "az": "Mərcimək humusu / dana yanaqları / sobada bişmiş yuxa",
+      "ru": "Хумус из чечевицы / говяжьи щёчки / лепёшка из печи",
+      "en": "Lentil hummus / beef cheeks / oven-baked flatbread"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Vitello Tonnato / ramiro bibəri / parmezan",
+      "ru": "Вителло тоннато / перец рамиро / пармезан",
+      "en": "Vitello tonnato / Ramiro pepper / parmesan"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "Yüngül hisə verilmiş çir balığı / ponzu sousu / qrenki",
+      "ru": "Слабокопчёный чир / соус понзу / гренки",
+      "en": "Lightly smoked whitefish / ponzu / croutons"
+     },
+     "price": 30
+    },
+    {
+     "name": {
+      "az": "Romen yarpaqları / dana can əti / çimiçurri sousu / parmezan",
+      "ru": "Листья ромэна / говяжья вырезка / соус чимичурри / пармезан",
+      "en": "Romaine leaves / beef tenderloin / chimichurri / parmesan"
+     },
+     "price": 25
+    },
+    {
+     "name": {
+      "az": "Dana əti ilə «Pitivye» piroqu / parmezanlı nuazet yağı ilə sous",
+      "ru": "Пирог «Питивье» с говядиной / соус на нуазетном масле с пармезаном",
+      "en": "Beef «Pithivier» pie / brown butter and parmesan sauce"
+     },
+     "price": 22
+    }
+   ]
+  },
+  {
+   "id": "raw",
+   "part": "day",
+   "boxed": true,
+   "name": {
+    "az": "Raw bar",
+    "ru": "Raw bar",
+    "en": "Raw bar"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Qızılbalıq tataki / quakamole / qurudulmuş pomidor",
+      "ru": "Татаки из лосося / гуакамоле / вяленые томаты",
+      "en": "Salmon tataki / guacamole / sun-dried tomatoes"
+     },
+     "price": 32
+    },
+    {
+     "name": {
+      "az": "Dana ətindən tartar / kornişon / dijon xardalı",
+      "ru": "Тартар из говядины / корнишоны / дижонская горчица",
+      "en": "Beef tartare / gherkins / Dijon mustard"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Azduzlu blufin tuna balığı / marinə edilmiş pomidor",
+      "ru": "Слабосолёный голубой тунец / маринованные томаты",
+      "en": "Lightly cured bluefin tuna / marinated tomatoes"
+     },
+     "price": 35
+    }
+   ]
+  },
+  {
+   "id": "roti",
+   "part": "day",
+   "name": {
+    "az": "Roti və bruskettalar",
+    "ru": "Роти и брускетты",
+    "en": "Roti & bruschetta"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Roti yayması / azduzlu qızılbalıq / krem pendir / avokado",
+      "ru": "Роти / слабосолёный лосось / сливочный сыр / авокадо",
+      "en": "Roti / lightly cured salmon / cream cheese / avocado"
+     },
+     "price": 35
+    },
+    {
+     "name": {
+      "az": "Roti yayması / krevet / krem pendir / avokado",
+      "ru": "Роти / креветки / сливочный сыр / авокадо",
+      "en": "Roti / shrimp / cream cheese / avocado"
+     },
+     "price": 28
+    },
+    {
+     "name": {
+      "az": "Roti yayması / ribay talyata / marinə edilmiş qırmızı soğan / BBQ sousu",
+      "ru": "Роти / тальята из рибая / маринованный красный лук / соус барбекю",
+      "en": "Roti / ribeye tagliata / pickled red onion / BBQ sauce"
+     },
+     "price": 24
+    },
+    {
+     "name": {
+      "az": "Brusketta straçatella / pesto / pomidor",
+      "ru": "Брускетта со страчателлой / песто / томаты",
+      "en": "Stracciatella bruschetta / pesto / tomato"
+     },
+     "price": 20
+    },
+    {
+     "name": {
+      "az": "Brusketta yengəc / trüfelli tapenada",
+      "ru": "Брускетта с крабом / трюфельная тапенада",
+      "en": "Crab bruschetta / truffle tapenade"
+     },
+     "price": 35
+    },
+    {
+     "name": {
+      "az": "Hisə verilmiş qızılbalıq brusketta / xiyar / tobiko kürüsü / acılı sous",
+      "ru": "Брускетта с копчёным лососем / огурец / икра тобико / острый соус",
+      "en": "Smoked salmon bruschetta / cucumber / tobiko roe / spicy sauce"
+     },
+     "price": 22
+    }
+   ]
+  },
+  {
+   "id": "salads",
+   "part": "day",
+   "name": {
+    "az": "Salatlar",
+    "ru": "Салаты",
+    "en": "Salads"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "«NOTES» salatı",
+      "ru": "Салат «NOTES»",
+      "en": "«NOTES» salad"
+     },
+     "price": 30,
+     "desc": {
+      "az": "Bişmiş armud, çuğundur, avokado, ev sayağı pendir, pomidor",
+      "ru": "Печёная груша, свёкла, авокадо, домашний сыр, томаты",
+      "en": "Baked pear, beetroot, avocado, homemade cheese, tomato"
+     },
+     "sig": true
+    },
+    {
+     "name": {
+      "az": "Yaşıl salat / avokado / qreypfrut / yaşıl çili sousu",
+      "ru": "Зелёный салат / авокадо / грейпфрут / соус из зелёного чили",
+      "en": "Green salad / avocado / grapefruit / green chilli dressing"
+     },
+     "price": 30
+    },
+    {
+     "name": {
+      "az": "Zərif rostbif ilə salat / qarışıq tərəvəzlər / küncüt əsaslı sous",
+      "ru": "Салат с нежным ростбифом / овощной микс / кунжутный соус",
+      "en": "Tender roast beef salad / mixed vegetables / sesame dressing"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "Bişmiş tərəvəzlərdən salat / şişdə dana əti / göyərti sousu",
+      "ru": "Салат из печёных овощей / говядина на шпажке / соус из зелени",
+      "en": "Roasted vegetable salad / beef skewer / herb sauce"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "Krab salatı / mövsümi meyvə / keçi pendiri musu / ballı xardallı sous",
+      "ru": "Салат с крабом / сезонные фрукты / мусс из козьего сыра / медово-горчичный соус",
+      "en": "Crab salad / seasonal fruit / goat cheese mousse / honey mustard dressing"
+     },
+     "price": 35
+    },
+    {
+     "name": {
+      "az": "«Sezar» salatı",
+      "ru": "Салат «Цезарь»",
+      "en": "«Caesar» salad"
+     },
+     "variants": [
+      {
+       "name": {
+        "az": "cücə ilə",
+        "ru": "с цыплёнком",
+        "en": "chicken"
+       },
+       "note": {
+        "az": "140 qr",
+        "ru": "140 г",
+        "en": "140 g"
+       },
+       "price": 18
+      },
+      {
+       "name": {
+        "az": "krevetlə",
+        "ru": "с креветками",
+        "en": "shrimp"
+       },
+       "note": {
+        "az": "50 qr",
+        "ru": "50 г",
+        "en": "50 g"
+       },
+       "price": 22
+      },
+      {
+       "name": {
+        "az": "azduzlu qızılbalıqla",
+        "ru": "со слабосолёным лососем",
+        "en": "cured salmon"
+       },
+       "note": {
+        "az": "50 qr",
+        "ru": "50 г",
+        "en": "50 g"
+       },
+       "price": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "soups",
+   "part": "day",
+   "name": {
+    "az": "Şorbalar",
+    "ru": "Супы",
+    "en": "Soups"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Toyuq bulyonu / raviolini cücə ilə",
+      "ru": "Куриный бульон / равиолини с цыплёнком",
+      "en": "Chicken broth / chicken raviolini"
+     },
+     "price": 12
+    },
+    {
+     "name": {
+      "az": "Lobya şorbası / dana əti / hisə verilmiş xama",
+      "ru": "Фасолевый суп / говядина / копчёная сметана",
+      "en": "Bean soup / beef / smoked sour cream"
+     },
+     "price": 19
+    },
+    {
+     "name": {
+      "az": "Balqabaq şorbası / krevet / balqabaq tumu",
+      "ru": "Тыквенный суп / креветки / тыквенные семечки",
+      "en": "Pumpkin soup / shrimp / pumpkin seeds"
+     },
+     "price": 15
+    }
+   ]
+  },
+  {
+   "id": "pasta",
+   "part": "day",
+   "name": {
+    "az": "Pasta və rizotto",
+    "ru": "Паста и ризотто",
+    "en": "Pasta & risotto"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Rizotto / göbələk / straçatella",
+      "ru": "Ризотто / грибы / страчателла",
+      "en": "Risotto / mushrooms / stracciatella"
+     },
+     "price": 22
+    },
+    {
+     "name": {
+      "az": "Pasta kazareççe / burrata / pomidor",
+      "ru": "Паста казаречче / буррата / томаты",
+      "en": "Casarecce / burrata / tomato"
+     },
+     "price": 25
+    },
+    {
+     "name": {
+      "az": "Pasta kazareççe / qızılbalıq / hisə verilmiş toyuq filesi / ramiro bibəri",
+      "ru": "Паста казаречче / лосось / копчёное куриное филе / перец рамиро",
+      "en": "Casarecce / salmon / smoked chicken fillet / Ramiro pepper"
+     },
+     "price": 28
+    },
+    {
+     "name": {
+      "az": "Pasta spagetti / krevet / Napoletana sousu",
+      "ru": "Спагетти / креветки / соус наполетана",
+      "en": "Spaghetti / shrimp / Napoletana sauce"
+     },
+     "price": 35
+    },
+    {
+     "name": {
+      "az": "Pasta riqatoni / dana əti / brınza pendiri",
+      "ru": "Ригатони / говядина / брынза",
+      "en": "Rigatoni / beef / brynza cheese"
+     },
+     "price": 35
+    }
+   ]
+  },
+  {
+   "id": "pizza",
+   "part": "day",
+   "service": "pizza",
+   "boxed": true,
+   "note": {
+    "az": "29 sm",
+    "ru": "29 см",
+    "en": "29 cm"
+   },
+   "name": {
+    "az": "Pizza",
+    "ru": "Пицца",
+    "en": "Pizza"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Qızılbalıq / mozzarella / parmezan",
+      "ru": "Лосось / моцарелла / пармезан",
+      "en": "Salmon / mozzarella / parmesan"
+     },
+     "price": 30
+    },
+    {
+     "name": {
+      "az": "Qorqonzola / armud / əncir mürəbbəsi",
+      "ru": "Горгонзола / груша / инжирное варенье",
+      "en": "Gorgonzola / pear / fig jam"
+     },
+     "price": 25
+    },
+    {
+     "name": {
+      "az": "«Dörd pendir» / əncir mürəbbəsi",
+      "ru": "«Четыре сыра» / инжирное варенье",
+      "en": "«Four cheese» / fig jam"
+     },
+     "price": 28
+    },
+    {
+     "name": {
+      "az": "Pepperoni hisə verilmiş mal əti ilə / mozzarella",
+      "ru": "Пепперони из копчёной говядины / моцарелла",
+      "en": "Smoked beef pepperoni / mozzarella"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "«Pollo Funqi»",
+      "ru": "«Полло фунги»",
+      "en": "«Pollo Funghi»"
+     },
+     "price": 25
+    }
+   ]
+  },
+  {
+   "id": "veg",
+   "part": "day",
+   "name": {
+    "az": "Tərəvəzlər",
+    "ru": "Овощи",
+    "en": "Vegetables"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Avokado boul / brokoli / toxum qarışığı",
+      "ru": "Боул с авокадо / брокколи / микс семян",
+      "en": "Avocado bowl / broccoli / seed mix"
+     },
+     "price": 24
+    },
+    {
+     "name": {
+      "az": "Şirin kartof qızartması / parmezan / paprika tonnato sousu",
+      "ru": "Батат фри / пармезан / соус тоннато с паприкой",
+      "en": "Sweet potato fries / parmesan / paprika tonnato sauce"
+     },
+     "price": 16
+    },
+    {
+     "name": {
+      "az": "Brokoli steyki / quakamole / qoz sousu",
+      "ru": "Стейк из брокколи / гуакамоле / ореховый соус",
+      "en": "Broccoli steak / guacamole / walnut sauce"
+     },
+     "price": 18
+    },
+    {
+     "name": {
+      "az": "Qızardılmış tərəvəzlər / bitki yağı",
+      "ru": "Жареные овощи / растительное масло",
+      "en": "Grilled vegetables / vegetable oil"
+     },
+     "price": 12
+    },
+    {
+     "name": {
+      "az": "Sobada gül kələmi / nuazet yağı / qoz",
+      "ru": "Цветная капуста из печи / нуазетное масло / грецкий орех",
+      "en": "Oven-roasted cauliflower / brown butter / walnut"
+     },
+     "price": 16
+    }
+   ]
+  },
+  {
+   "id": "meat",
+   "part": "evening",
+   "name": {
+    "az": "Ət",
+    "ru": "Мясо",
+    "en": "Meat"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "File minyon / kartof püresi / istiot sousu",
+      "ru": "Филе-миньон / картофельное пюре / перечный соус",
+      "en": "Filet mignon / mashed potatoes / pepper sauce"
+     },
+     "price": 55,
+     "note": {
+      "az": "RU, 200 qr",
+      "ru": "Россия, 200 г",
+      "en": "Russia, 200 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Denver steyki",
+      "ru": "Стейк денвер",
+      "en": "Denver steak"
+     },
+     "price": 80,
+     "note": {
+      "az": "RU, Prime Beef, 300 qr",
+      "ru": "Россия, Prime Beef, 300 г",
+      "en": "Russia, Prime Beef, 300 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Dana can əti / quş qaraciyəri / qızardılmış kartof püresi / göbələk sousu",
+      "ru": "Говяжья вырезка / куриная печень / обжаренное картофельное пюре / грибной соус",
+      "en": "Beef tenderloin / chicken liver / fried mashed potatoes / mushroom sauce"
+     },
+     "price": 40
+    },
+    {
+     "name": {
+      "az": "«Notes» burgeri / trüfel kremi",
+      "ru": "Бургер «Notes» / трюфельный крем",
+      "en": "«Notes» burger / truffle cream"
+     },
+     "price": 38,
+     "sig": true
+    },
+    {
+     "name": {
+      "az": "Dana şnitseli / azduzlu pomidor / limon",
+      "ru": "Шницель из телятины / малосольные томаты / лимон",
+      "en": "Veal schnitzel / lightly salted tomatoes / lemon"
+     },
+     "price": 40
+    },
+    {
+     "name": {
+      "az": "Kömürdə hazırlanmış ribay steyki",
+      "ru": "Рибай на углях",
+      "en": "Charcoal-grilled ribeye"
+     },
+     "price": 20,
+     "note": {
+      "az": "AZ, Dry Aged, 100 qr",
+      "ru": "Азербайджан, сухая выдержка, 100 г",
+      "en": "Azerbaijan, dry aged, per 100 g"
+     }
+    },
+    {
+     "name": {
+      "az": "Dana yanaqları / göbələk / kartof püresi",
+      "ru": "Говяжьи щёчки / грибы / картофельное пюре",
+      "en": "Beef cheeks / mushrooms / mashed potatoes"
+     },
+     "price": 32
+    },
+    {
+     "name": {
+      "az": "Dana döş əti / yaşıl tərəvəzlər / marinə edilmiş çuğundur / kartof",
+      "ru": "Говяжья грудинка / зелёные овощи / маринованная свёкла / картофель",
+      "en": "Beef brisket / green vegetables / pickled beetroot / potatoes"
+     },
+     "price": 45
+    }
+   ]
+  },
+  {
+   "id": "fish",
+   "part": "evening",
+   "photo": "quail",
+   "photoAlt": {
+    "az": "Göbələklə doldurulmuş bildirçin, təzə kartof və göyərti",
+    "ru": "Перепел с грибами, молодой картофель и зелень",
+    "en": "Quail stuffed with mushrooms, new potatoes and greens"
+   },
+   "name": {
+    "az": "Balıq və quş",
+    "ru": "Рыба и птица",
+    "en": "Fish & poultry"
+   },
+   "items": [
+    {
+     "name": {
+      "az": "Sibas panko suxarisində / sitrus sousu",
+      "ru": "Сибас в панко / цитрусовый соус",
+      "en": "Sea bass in panko / citrus sauce"
+     },
+     "price": 38
+    },
+    {
+     "name": {
+      "az": "Qızılbalıq / tərəvəzli kapponata / rozmarin tüstüsü",
+      "ru": "Лосось / овощная капоната / дым розмарина",
+      "en": "Salmon / vegetable caponata / rosemary smoke"
+     },
+     "price": 42
+    },
+    {
+     "name": {
+      "az": "Yengəc kotleti / kartof püresi / qızılbalıq kürüsü / Şampan sousu",
+      "ru": "Крабовая котлета / картофельное пюре / икра лосося / соус «Шампань»",
+      "en": "Crab cake / mashed potatoes / salmon roe / Champagne sauce"
+     },
+     "price": 46
+    },
+    {
+     "name": {
+      "az": "Hisə verilmiş dorado / ədviyyatlı giləmeyvə sousu / kartof",
+      "ru": "Копчёная дорадо / пряный ягодный соус / картофель",
+      "en": "Smoked dorado / spiced berry sauce / potatoes"
+     },
+     "price": 40
+    },
+    {
+     "name": {
+      "az": "Qızardılmış toyuq budu / yaşıl tərəvəzlər / Cacio e Pepe sousu",
+      "ru": "Жареное куриное бедро / зелёные овощи / соус качо э пепе",
+      "en": "Roast chicken thigh / green vegetables / cacio e pepe sauce"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "Parmezan örtüklü toyuq şnitseli / romen salatı / kaperslər",
+      "ru": "Куриный шницель в пармезане / салат ромэн / каперсы",
+      "en": "Parmesan-crusted chicken schnitzel / romaine / capers"
+     },
+     "price": 26
+    },
+    {
+     "name": {
+      "az": "Göbələklə doldurulmuş qızardılmış bildirçin / təzə kartof / göyərti qarışığı / demiqlas sousu",
+      "ru": "Жареный перепел с грибной начинкой / молодой картофель / микс зелени / соус демиглас",
+      "en": "Roast quail stuffed with mushrooms / new potatoes / herb mix / demi-glace"
+     },
+     "price": 25
+    }
+   ]
+  }
+ ],
+ "bar": {
+  "cocktails": [
+   {
+    "name": "NOTES Classic",
+    "boxed": true,
+    "items": [
+     {
+      "name": "Rhubarbie",
+      "price": 18,
+      "desc": "Rhubarb gin, strawberry vermouth, tomato water, vanilla",
+      "sig": true
+     },
+     {
+      "name": "Cherry Negroni",
+      "price": 19,
+      "desc": "Cherry gin, Cynar, tonka vermouth, pistachio extract, cinnamon bitter",
+      "sig": true
+     },
+     {
+      "name": "Electro Margarita",
+      "price": 19,
+      "desc": "Tequila infused with Spilanthes acmella, mezcal, agave nectar, vanilla, lime",
+      "sig": true
+     },
+     {
+      "name": "Lavender 75",
+      "price": 19,
+      "desc": "Gin, lavender, elderflower, lemon, pineapple, prosecco",
+      "sig": true
+     }
+    ]
+   },
+   {
+    "name": "Aperitivo Time",
+    "items": [
+     {
+      "name": "Notes Spritz",
+      "price": 16,
+      "desc": "Aperol, gin infused with rhubarb & raspberry, sparkling wine",
+      "sig": true
+     },
+     {
+      "name": "One Sip Martini",
+      "price": 17,
+      "desc": "Gin, a mix of vermouths, olives"
+     }
+    ]
+   },
+   {
+    "name": "Sparkling Stories",
+    "items": [
+     {
+      "name": "Seasons Bellini",
+      "price": 21,
+      "desc": "Prosecco, seasonal fruits & berries"
+     },
+     {
+      "name": "My Therapist’s Recommendation",
+      "price": 17,
+      "desc": "Vanilla vodka, Passoa, passion fruit, lemon, aloe, vegan foam, sparkling wine"
+     },
+     {
+      "name": "Sgroppino",
+      "price": 16,
+      "desc": "Vodka, limoncello, lemon sorbet, cream, sparkling wine"
+     }
+    ]
+   },
+   {
+    "name": "Fresh Ideas",
+    "items": [
+     {
+      "name": "Bergamot Margarita",
+      "price": 19,
+      "desc": "Bergamot tequila, vanilla agave nectar, Cointreau infused with kaffir lime leaves, black lime salt"
+     },
+     {
+      "name": "Pandan Daiquiri",
+      "price": 16,
+      "desc": "Pandan rum, lime, yuzu, pineapple"
+     }
+    ]
+   },
+   {
+    "name": "Are These Really Vegetables",
+    "items": [
+     {
+      "name": "Paloma Verde",
+      "price": 15,
+      "desc": "Tequila, mezcal, absinthe, maraschino, celery, lime, soda, taco spices"
+     },
+     {
+      "name": "Best Mary",
+      "price": 15,
+      "desc": "Horseradish vodka, celery, tomato juice, Tabasco, Worcestershire sauce, spices"
+     }
+    ]
+   },
+   {
+    "name": "Smooth Texture",
+    "items": [
+     {
+      "name": "Miso Whiskey Sour",
+      "price": 20,
+      "desc": "Bourbon, pineapple, yuzu, lemon, white miso, vegan foam"
+     },
+     {
+      "name": "Bears on Ice",
+      "price": 20,
+      "desc": "Gin, vermouth bianco, elderflower liqueur, grape, aloe, lemon, vegan foam"
+     }
+    ]
+   },
+   {
+    "name": "Strong Solutions",
+    "items": [
+     {
+      "name": "Looni Negroni",
+      "price": 16,
+      "desc": "Loomi gin, vermouth rosso infused with tonka beans, vanilla Campari, Cynar"
+     },
+     {
+      "name": "Dr. Manhattan",
+      "price": 17,
+      "desc": "Bourbon, vermouth rosso with tonka beans, Cynar, Branca Menta, bitter"
+     },
+     {
+      "name": "Snickers Old Fashioned",
+      "price": 18,
+      "desc": "Peanut bourbon, salted caramel, cacao bitter"
+     }
+    ]
+   }
+  ],
+  "drinks": [
+   {
+    "id": "lemonades",
+    "name": {
+     "az": "Limonadlar",
+     "ru": "Лимонады",
+     "en": "Lemonades"
+    },
+    "note": {
+     "az": "250 ml",
+     "ru": "250 мл",
+     "en": "250 ml"
+    },
+    "items": [
+     {
+      "name": "Seasons Bellini BA",
+      "price": 14,
+      "desc": "Seasonal fruit, non-alcoholic sparkling wine"
+     },
+     {
+      "name": "Arranchata",
+      "price": 13,
+      "desc": "Orange & lemon cordial, passion fruit, soda water"
+     },
+     {
+      "name": "Lavender Lemonade",
+      "price": 13,
+      "desc": "Lavender soy syrup, lemon, soda water"
+     },
+     {
+      "name": "Berry Season Lemonade",
+      "price": 12,
+      "desc": "Smoked berries, ginger, honey, soda"
+     }
+    ]
+   },
+   {
+    "id": "coffee",
+    "name": {
+     "az": "Qəhvə",
+     "ru": "Кофе",
+     "en": "Coffee"
+    },
+    "items": [
+     {
+      "name": "Espresso / Ristretto",
+      "price": 7
+     },
+     {
+      "name": "Americano",
+      "price": 7
+     },
+     {
+      "name": "Cappuccino",
+      "price": 8
+     },
+     {
+      "name": "Caffe Latte",
+      "price": 10
+     },
+     {
+      "name": "Lemon Latte",
+      "price": 10
+     },
+     {
+      "name": "Spicy Latte",
+      "price": 11
+     },
+     {
+      "name": "Hazelnut Raf",
+      "price": 12
+     },
+     {
+      "name": "Lavender Raf",
+      "price": 12
+     },
+     {
+      "name": "Hot Chocolate",
+      "price": 8
+     },
+     {
+      "name": "Iced Latte",
+      "price": 10
+     },
+     {
+      "name": "Matcha Latte",
+      "price": 12
+     }
+    ]
+   },
+   {
+    "id": "tea",
+    "name": {
+     "az": "Çay",
+     "ru": "Чай",
+     "en": "Tea"
+    },
+    "note": {
+     "az": "çaynik 1 L",
+     "ru": "чайник 1 л",
+     "en": "1 L pot"
+    },
+    "groups": [
+     {
+      "name": {
+       "az": "Qara",
+       "ru": "Чёрный",
+       "en": "Black"
+      },
+      "items": [
+       {
+        "name": "Lankaran Tea",
+        "price": 15
+       },
+       {
+        "name": "Earl Grey",
+        "price": 15
+       },
+       {
+        "name": "Lapsang Souchong",
+        "price": 15
+       }
+      ]
+     },
+     {
+      "name": {
+       "az": "Yaşıl",
+       "ru": "Зелёный",
+       "en": "Green"
+      },
+      "items": [
+       {
+        "name": "Sencha",
+        "price": 15
+       },
+       {
+        "name": "Milk Oolong",
+        "price": 15
+       },
+       {
+        "name": "Jasmine Pearl",
+        "price": 15
+       },
+       {
+        "name": "Notes Herbal Mix",
+        "price": 15,
+        "sig": true
+       }
+      ]
+     },
+     {
+      "name": {
+       "az": "Meyvə çayı, 0,6 L",
+       "ru": "Фруктовый, 0,6 л",
+       "en": "Fruit tea, 0.6 L"
+      },
+      "items": [
+       {
+        "name": "Sea Buckthorn & Ginger",
+        "price": 18,
+        "desc": "Sea buckthorn, orange juice, lemon, pear, ginger"
+       },
+       {
+        "name": "Smoked Tea with Berries & Pineapple",
+        "price": 16,
+        "desc": "Smoked tea, berries, lemon, pineapple, cinnamon"
+       },
+       {
+        "name": "Moroccan Mint Tea",
+        "price": 14,
+        "desc": "Lime, orange, mint, clove, cinnamon, honey"
+       }
+      ]
+     },
+     {
+      "name": {
+       "az": "Bitki çayları",
+       "ru": "Травяные",
+       "en": "Tisanes"
+      },
+      "items": [
+       {
+        "name": "Lemongrass, 3 g",
+        "price": 4
+       },
+       {
+        "name": "Mint, 4 g",
+        "price": 4
+       },
+       {
+        "name": "Thyme, 2 g",
+        "price": 3
+       },
+       {
+        "name": "Chamomile, 2 g",
+        "price": 4
+       },
+       {
+        "name": "Dried Strawberries, 2 g",
+        "price": 4
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "juices",
+    "name": {
+     "az": "Şirələr",
+     "ru": "Соки",
+     "en": "Juices"
+    },
+    "groups": [
+     {
+      "name": {
+       "az": "Təzə sıxılmış, 0,33 L",
+       "ru": "Свежевыжатые, 0,33 л",
+       "en": "Freshly squeezed, 0.33 L"
+      },
+      "items": [
+       {
+        "name": "Orange",
+        "price": 10
+       },
+       {
+        "name": "Grapefruit & Ginger",
+        "price": 13
+       },
+       {
+        "name": "Green Apple",
+        "price": 9
+       },
+       {
+        "name": "Carrot",
+        "price": 8
+       }
+      ]
+     },
+     {
+      "name": {
+       "az": "Swell, 0,25 L",
+       "ru": "Swell, 0,25 л",
+       "en": "Swell, 0.25 L"
+      },
+      "items": [
+       {
+        "name": "Apple / Cherry / Orange",
+        "price": 8
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "soft",
+    "name": {
+     "az": "Sərinləşdirici",
+     "ru": "Прохладительные",
+     "en": "Soft drinks"
+    },
+    "items": [
+     {
+      "name": "Coca-Cola",
+      "price": 6
+     },
+     {
+      "name": "Malafemmena Tonic",
+      "price": 7
+     },
+     {
+      "name": "Malafemmena Ginger Beer",
+      "price": 10
+     },
+     {
+      "name": "Red Bull",
+      "price": 10
+     },
+     {
+      "name": "Sirab",
+      "prices": {
+       "0,33 L": 7,
+       "0,75 L": 10
+      }
+     },
+     {
+      "name": "San Pellegrino, 0,75 L",
+      "price": 12
+     },
+     {
+      "name": "Acqua Panna, 0,75 L",
+      "price": 12
+     }
+    ]
+   },
+   {
+    "id": "beer",
+    "name": {
+     "az": "Pivə",
+     "ru": "Пиво",
+     "en": "Beer"
+    },
+    "items": [
+     {
+      "name": "Corona",
+      "price": 12
+     },
+     {
+      "name": "Efes Zero (0%)",
+      "price": 8
+     }
+    ]
+   }
+  ],
+  "wine": [
+   {
+    "id": "sparkling",
+    "name": {
+     "az": "Köpüklü",
+     "ru": "Игристое",
+     "en": "Sparkling"
+    },
+    "items": [
+     {
+      "name": "Chandon Brut",
+      "glass": 14,
+      "bottle": 80
+     },
+     {
+      "name": "Chandon Rosé",
+      "glass": 14,
+      "bottle": 80
+     },
+     {
+      "name": "Mionetto Prestige Brut",
+      "glass": 14,
+      "bottle": 80
+     },
+     {
+      "name": "Astoria Fano Asolo Prosecco Superiore DOCG Extra Brut",
+      "bottle": 75
+     }
+    ]
+   },
+   {
+    "id": "champagne",
+    "name": {
+     "az": "Şampan",
+     "ru": "Шампанское",
+     "en": "Champagne"
+    },
+    "items": [
+     {
+      "name": "Moët & Chandon Brut",
+      "bottle": 300
+     },
+     {
+      "name": "Moët & Chandon Rosé",
+      "bottle": 300
+     },
+     {
+      "name": "Veuve Clicquot Ponsardin Brut",
+      "bottle": 320
+     },
+     {
+      "name": "Dom Pérignon",
+      "bottle": 900
+     }
+    ]
+   },
+   {
+    "id": "white",
+    "name": {
+     "az": "Ağ",
+     "ru": "Белое",
+     "en": "White"
+    },
+    "items": [
+     {
+      "name": "Meysari Sadaf Organic",
+      "org": "Azerbaijan, Shamakhi",
+      "bottle": 70
+     },
+     {
+      "name": "Matua Sauvignon Blanc",
+      "org": "New Zealand, Marlborough",
+      "bottle": 130
+     },
+     {
+      "name": "Nobody’s Hero Sauvignon Blanc",
+      "org": "New Zealand",
+      "bottle": 95
+     },
+     {
+      "name": "Straits Sauvignon Blanc Grande Reserve, Sileni 2021",
+      "org": "New Zealand, Marlborough",
+      "bottle": 110
+     },
+     {
+      "name": "Terrazas Torrontés",
+      "org": "Argentina, Mendoza",
+      "bottle": 95
+     },
+     {
+      "name": "19 Crimes Chardonnay",
+      "org": "Australia",
+      "bottle": 80
+     },
+     {
+      "name": "La Scolca Gavi dei Gavi Etichetta Nera",
+      "org": "Italy, Piedmont",
+      "bottle": 160
+     },
+     {
+      "name": "Calasole Vermentino",
+      "org": "Italy, Tuscany",
+      "bottle": 95
+     },
+     {
+      "name": "La Scolca Gavi Valentino",
+      "org": "Italy, Piedmont",
+      "glass": 15,
+      "bottle": 80
+     },
+     {
+      "name": "Ruffino Pinot Grigio",
+      "org": "Italy, Tuscany",
+      "glass": 14,
+      "bottle": 80
+     },
+     {
+      "name": "Donnafugata SurSur Grillo DOC",
+      "org": "Italy, Sicily",
+      "bottle": 125
+     },
+     {
+      "name": "Donnafugata Damarino DOC",
+      "org": "Italy, Sicily",
+      "bottle": 85
+     },
+     {
+      "name": "Torre Mora «Scalunera» Bianco, Etna DOC",
+      "org": "Italy, Sicily",
+      "bottle": 90
+     },
+     {
+      "name": "Cervaro della Sala, Marchesi Antinori 2021",
+      "org": "Italy, Umbria",
+      "bottle": 250
+     },
+     {
+      "name": "Elena Walch Gewürztraminer DOC 2021",
+      "org": "Italy, Trentino-Alto Adige",
+      "bottle": 115
+     },
+     {
+      "name": "Riesling «Tuzko» 2022, Marchesi Antinori",
+      "org": "Hungary",
+      "bottle": 80
+     },
+     {
+      "name": "Sancerre Blanc, Pascal Jolivet 2022",
+      "org": "France, Loire",
+      "bottle": 160
+     },
+     {
+      "name": "Louis Latour Puligny-Montrachet 1er Cru 2020",
+      "org": "France, Burgundy",
+      "bottle": 520
+     },
+     {
+      "name": "Tommasi Vulcanico Falanghina",
+      "org": "Italy",
+      "bottle": 80
+     }
+    ]
+   },
+   {
+    "id": "rose",
+    "name": {
+     "az": "Roze",
+     "ru": "Розовое",
+     "en": "Rosé"
+    },
+    "items": [
+     {
+      "name": "Meysari Sanam Organic",
+      "org": "Azerbaijan, Shamakhi",
+      "bottle": 70
+     },
+     {
+      "name": "Château d’Esclans Whispering Angel",
+      "org": "France, Provence",
+      "bottle": 120
+     },
+     {
+      "name": "Tenuta Ulisse Unico Cerasuolo d’Abruzzo DOC 2022",
+      "org": "Italy, Abruzzo",
+      "bottle": 78
+     },
+     {
+      "name": "Rosé d’Anjou",
+      "org": "France",
+      "glass": 13,
+      "bottle": 75
+     }
+    ]
+   },
+   {
+    "id": "red",
+    "name": {
+     "az": "Qırmızı",
+     "ru": "Красное",
+     "en": "Red"
+    },
+    "items": [
+     {
+      "name": "Meysari Marjan Organic",
+      "org": "Azerbaijan, Shamakhi",
+      "bottle": 70
+     },
+     {
+      "name": "Meysari Makhmari Premium Organic",
+      "org": "Azerbaijan, Shamakhi",
+      "bottle": 80
+     },
+     {
+      "name": "Beringer Zinfandel",
+      "org": "USA, California",
+      "bottle": 85
+     },
+     {
+      "name": "Nobody’s Hero Pinot Noir",
+      "org": "New Zealand",
+      "bottle": 110
+     },
+     {
+      "name": "Cloudy Bay Pinot Noir",
+      "org": "New Zealand, Marlborough",
+      "bottle": 180
+     },
+     {
+      "name": "Tommasi Synthesi Aglianico",
+      "org": "Italy",
+      "bottle": 80
+     },
+     {
+      "name": "Sileni Estate Selection «Plateau» Pinot Noir 2019",
+      "org": "New Zealand, Marlborough",
+      "bottle": 110
+     },
+     {
+      "name": "Penfolds Max’s Shiraz Cabernet",
+      "org": "Australia",
+      "bottle": 120
+     },
+     {
+      "name": "Ruffino Chianti DOCG",
+      "org": "Italy, Tuscany",
+      "glass": 14,
+      "bottle": 80
+     },
+     {
+      "name": "Astoria Valpolicella Ripasso DOC",
+      "org": "Italy, Veneto",
+      "bottle": 95
+     },
+     {
+      "name": "Bastioni della Rocca Montepulciano d’Abruzzo",
+      "org": "Italy, Abruzzo",
+      "bottle": 75
+     },
+     {
+      "name": "Bastioni della Rocca Primitivo IGT",
+      "org": "Italy, Puglia",
+      "glass": 13,
+      "bottle": 75
+     },
+     {
+      "name": "Costasera Riserva Amarone della Valpolicella Classico DOCG 2016",
+      "org": "Italy, Veneto",
+      "bottle": 350
+     },
+     {
+      "name": "IDDA Etna Rosso 2019, Gaja",
+      "org": "Italy, Sicily",
+      "bottle": 200
+     },
+     {
+      "name": "Tignanello 2020, Marchesi Antinori",
+      "org": "Italy, Tuscany",
+      "bottle": 470
+     },
+     {
+      "name": "Floramundi Cerasuolo di Vittoria DOCG, Donnafugata",
+      "org": "Italy, Sicily",
+      "bottle": 95
+     },
+     {
+      "name": "Ornellaia Bolgheri Superiore DOC 2020",
+      "org": "Italy, Tuscany",
+      "bottle": 750
+     },
+     {
+      "name": "Solaia 2020, Marchesi Antinori",
+      "org": "Italy, Tuscany",
+      "bottle": 850
+     },
+     {
+      "name": "Gaja Ca’Marcanda Magari 2020",
+      "org": "Italy, Tuscany",
+      "bottle": 370
+     },
+     {
+      "name": "Avignonesi-Capannelle «50&50» 2018 IGT",
+      "org": "Italy, Tuscany",
+      "bottle": 440
+     },
+     {
+      "name": "Promis, Gaja 2021",
+      "org": "Italy, Piedmont",
+      "bottle": 300
+     },
+     {
+      "name": "Sito Moresco 2020, Gaja",
+      "org": "Italy, Piedmont",
+      "bottle": 240
+     },
+     {
+      "name": "Dagromis Barolo 2018, Gaja",
+      "org": "Italy, Piedmont",
+      "bottle": 390
+     },
+     {
+      "name": "Sancerre Pinot Noir 2021, Pascal Jolivet",
+      "org": "France, Loire",
+      "bottle": 160
+     },
+     {
+      "name": "Louis Latour Gevrey-Chambertin 2021",
+      "org": "France, Burgundy",
+      "bottle": 450
+     },
+     {
+      "name": "Michel Lynch Merlot-Cabernet Sauvignon 2018",
+      "org": "France, Bordeaux",
+      "bottle": 85
+     },
+     {
+      "name": "Vega Sicilia Pintia 2018",
+      "org": "Spain, Ribera del Duero",
+      "bottle": 310
+     },
+     {
+      "name": "Vega Sicilia Alión 2019",
+      "org": "Spain, Ribera del Duero",
+      "bottle": 380
+     },
+     {
+      "name": "Bodega Numanthia Termes",
+      "org": "Spain, Toro",
+      "bottle": 160
+     },
+     {
+      "name": "Silk & Spice Red Blend",
+      "org": "Portugal",
+      "bottle": 95
+     },
+     {
+      "name": "Terrazas Malbec",
+      "org": "Argentina, Mendoza",
+      "bottle": 120
+     }
+    ]
+   },
+   {
+    "id": "dessert",
+    "name": {
+     "az": "Desert şərabı",
+     "ru": "Десертное",
+     "en": "Dessert wine"
+    },
+    "items": [
+     {
+      "name": "Vin Santo del Chianti Classico 2015, Marchesi Antinori",
+      "org": "Italy, Tuscany",
+      "glass": 25
+     },
+     {
+      "name": "Masi Angelorum Recioto della Valpolicella Classico DOC 2016",
+      "org": "Italy, Veneto",
+      "glass": 25
+     },
+     {
+      "name": "Donnafugata «Kabir» Moscato Passito di Pantelleria DOC 2022",
+      "org": "Italy, Sicily",
+      "glass": 15
+     }
+    ]
+   }
+  ],
+  "spirits": [
+   {
+    "name": {
+     "az": "Cin",
+     "ru": "Джин",
+     "en": "Gin"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Gin Masters",
+      "price": 7
+     },
+     {
+      "name": "Bombay Sapphire",
+      "price": 9
+     },
+     {
+      "name": "The Botanist Islay Dry Gin",
+      "price": 18
+     },
+     {
+      "name": "Tanqueray No. Ten",
+      "price": 13
+     },
+     {
+      "name": "Gin Mare",
+      "price": 17
+     },
+     {
+      "name": "Gin Le Tribute",
+      "price": 14
+     },
+     {
+      "name": "Hendrick’s",
+      "price": 15
+     },
+     {
+      "name": "Etsu Double Yuzu",
+      "price": 13
+     },
+     {
+      "name": "Etsu Pacific Ocean Water",
+      "price": 13
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Araq",
+     "ru": "Водка",
+     "en": "Vodka"
+    },
+    "vol": {
+     "az": "50 ml",
+     "ru": "50 мл",
+     "en": "50 ml"
+    },
+    "items": [
+     {
+      "name": "Belvedere",
+      "price": 16
+     },
+     {
+      "name": "Grey Goose",
+      "price": 19
+     },
+     {
+      "name": "Summum",
+      "price": 12
+     },
+     {
+      "name": "Chistye Rosy Organic",
+      "price": 14
+     },
+     {
+      "name": "Koskenkorva",
+      "price": 10
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Rom",
+     "ru": "Ром",
+     "en": "Rum"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Matusalem Gran Reserva 15 YO",
+      "price": 16
+     },
+     {
+      "name": "Angostura 7 YO",
+      "price": 10
+     },
+     {
+      "name": "El Ron Prohibido Reserva 12 YO",
+      "price": 17
+     },
+     {
+      "name": "Zacapa 23 YO",
+      "price": 28
+     },
+     {
+      "name": "Rivière du Mât Black Spiced",
+      "price": 9
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Tekila və meskal",
+     "ru": "Текила и мескаль",
+     "en": "Tequila & mezcal"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Don Julio Blanco",
+      "price": 28
+     },
+     {
+      "name": "Jose Cuervo Silver",
+      "price": 10
+     },
+     {
+      "name": "La Cofradía Special Reserve Blanco",
+      "price": 14
+     },
+     {
+      "name": "Volcán Blanco",
+      "price": 18
+     },
+     {
+      "name": "Volcán Añejo",
+      "price": 26
+     },
+     {
+      "name": "Mezcal Le Tribute",
+      "price": 18
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Single malt viski",
+     "ru": "Односолодовый скотч",
+     "en": "Single malt Scotch"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Glenmorangie Original 12 YO",
+      "price": 16
+     },
+     {
+      "name": "Glenmorangie Quinta Ruban 14 YO",
+      "price": 18
+     },
+     {
+      "name": "Glenmorangie Nectar d’Or",
+      "price": 20
+     },
+     {
+      "name": "The Macallan Double Cask 12 YO",
+      "price": 25
+     },
+     {
+      "name": "The Macallan Double Cask 15 YO",
+      "price": 42
+     },
+     {
+      "name": "The Macallan Double Cask 18 YO",
+      "price": 75
+     },
+     {
+      "name": "Highland Park 12 YO",
+      "price": 20
+     },
+     {
+      "name": "Ardbeg 10 YO",
+      "price": 21
+     },
+     {
+      "name": "Glenfiddich 12 YO",
+      "price": 18
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Kupaj viski",
+     "ru": "Купажированный скотч",
+     "en": "Blended Scotch"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Famous Grouse",
+      "price": 7
+     },
+     {
+      "name": "Johnnie Walker Black Label",
+      "price": 13
+     },
+     {
+      "name": "Johnnie Walker Gold Label",
+      "price": 22
+     },
+     {
+      "name": "Chivas Regal 12 YO",
+      "price": 13
+     },
+     {
+      "name": "Chivas Regal 18 YO",
+      "price": 26
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Yapon, İrland və Amerika viskisi",
+     "ru": "Японский, ирландский и американский виски",
+     "en": "Japanese, Irish & American whiskey"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Fuyu Mizunara",
+      "price": 15
+     },
+     {
+      "name": "Fujimi",
+      "price": 17
+     },
+     {
+      "name": "Connemara Single Malt",
+      "price": 18
+     },
+     {
+      "name": "Bushmills Original",
+      "price": 11
+     },
+     {
+      "name": "Jameson",
+      "price": 12
+     },
+     {
+      "name": "Four Roses",
+      "price": 12
+     },
+     {
+      "name": "Woodford Reserve",
+      "price": 17
+     },
+     {
+      "name": "Bulleit Rye",
+      "price": 16
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Konyak, brendi və kalvados",
+     "ru": "Коньяк, бренди и кальвадос",
+     "en": "Cognac, brandy & calvados"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Hennessy VS",
+      "price": 13
+     },
+     {
+      "name": "Hennessy VSOP",
+      "price": 24
+     },
+     {
+      "name": "Hennessy XO",
+      "price": 55
+     },
+     {
+      "name": "Rémy Martin VSOP",
+      "price": 18
+     },
+     {
+      "name": "Lheraud VS",
+      "price": 12
+     },
+     {
+      "name": "Lheraud Vieux Millénaire",
+      "price": 44
+     },
+     {
+      "name": "Torres 10 YO",
+      "price": 8
+     },
+     {
+      "name": "Château du Breuil Fine Calvados",
+      "price": 14
+     }
+    ]
+   },
+   {
+    "name": {
+     "az": "Qrappa və amaro",
+     "ru": "Граппа и амаро",
+     "en": "Grappa & amaro"
+    },
+    "vol": {
+     "az": "40 ml",
+     "ru": "40 мл",
+     "en": "40 ml"
+    },
+    "items": [
+     {
+      "name": "Berta Unica Grappa",
+      "price": 18
+     },
+     {
+      "name": "Berta Monprà",
+      "price": 16
+     },
+     {
+      "name": "Berta Tre Soli Tre",
+      "price": 39
+     },
+     {
+      "name": "Nonino Amaro Quintessentia",
+      "price": 17
+     },
+     {
+      "name": "Cynar",
+      "price": 10
+     }
+    ]
+   }
+  ]
+ },
+ "team": [
+  {
+   "name": {
+    "az": "Mark Şah Əkbəri",
+    "ru": "Марк Шах Акбари",
+    "en": "Mark Shah Akbari"
+   },
+   "role": {
+    "az": "Brend aşpaz",
+    "ru": "Бренд-шеф",
+    "en": "Brand chef"
+   },
+   "note": {
+    "az": "Le Cordon Bleu, Chefs Team Russia",
+    "ru": "Le Cordon Bleu, Chefs Team Russia",
+    "en": "Le Cordon Bleu, Chefs Team Russia"
+   }
+  },
+  {
+   "name": {
+    "az": "Sərxan Hacıyev",
+    "ru": "Сархан Гаджиев",
+    "en": "Sarkhan Hajiyev"
+   },
+   "role": {
+    "az": "Baş aşpaz",
+    "ru": "Шеф-повар",
+    "en": "Head chef"
+   }
+  },
+  {
+   "name": {
+    "az": "Qiqa Cobava",
+    "ru": "Гига Джобава",
+    "en": "Giga Jobava"
+   },
+   "role": {
+    "az": "Baş şirniyyatçı",
+    "ru": "Шеф-кондитер",
+    "en": "Head pastry chef"
+   },
+   "note": {
+    "az": "Twins Garden, Gürcüstan Kulinarlar Assosiasiyası",
+    "ru": "Twins Garden, Ассоциация кулинаров Грузии",
+    "en": "Twins Garden, Georgian Culinary Association"
+   }
+  },
+  {
+   "name": {
+    "az": "Vasiliy Jeqlov",
+    "ru": "Василий Жеглов",
+    "en": "Vasily Zheglov"
+   },
+   "role": {
+    "az": "Barın ideya müəllifi",
+    "ru": "Автор барной карты",
+    "en": "Bar concept"
+   },
+   "note": {
+    "az": "2021-ci ilin bartenderi",
+    "ru": "бармен года 2021",
+    "en": "Bartender of the Year 2021"
+   }
+  }
+ ],
+ "geo": {
+  "Azerbaijan": {
+   "az": "Azərbaycan",
+   "ru": "Азербайджан",
+   "en": "Azerbaijan"
+  },
+  "Shamakhi": {
+   "az": "Şamaxı",
+   "ru": "Шемаха",
+   "en": "Shamakhi"
+  },
+  "New Zealand": {
+   "az": "Yeni Zelandiya",
+   "ru": "Новая Зеландия",
+   "en": "New Zealand"
+  },
+  "Marlborough": {
+   "az": "Marlboro",
+   "ru": "Мальборо",
+   "en": "Marlborough"
+  },
+  "Argentina": {
+   "az": "Argentina",
+   "ru": "Аргентина",
+   "en": "Argentina"
+  },
+  "Mendoza": {
+   "az": "Mendosa",
+   "ru": "Мендоса",
+   "en": "Mendoza"
+  },
+  "Australia": {
+   "az": "Avstraliya",
+   "ru": "Австралия",
+   "en": "Australia"
+  },
+  "Italy": {
+   "az": "İtaliya",
+   "ru": "Италия",
+   "en": "Italy"
+  },
+  "Piedmont": {
+   "az": "Pyemont",
+   "ru": "Пьемонт",
+   "en": "Piedmont"
+  },
+  "Tuscany": {
+   "az": "Toskana",
+   "ru": "Тоскана",
+   "en": "Tuscany"
+  },
+  "Sicily": {
+   "az": "Siciliya",
+   "ru": "Сицилия",
+   "en": "Sicily"
+  },
+  "Umbria": {
+   "az": "Umbriya",
+   "ru": "Умбрия",
+   "en": "Umbria"
+  },
+  "Veneto": {
+   "az": "Veneto",
+   "ru": "Венето",
+   "en": "Veneto"
+  },
+  "Abruzzo": {
+   "az": "Abrutso",
+   "ru": "Абруццо",
+   "en": "Abruzzo"
+  },
+  "Puglia": {
+   "az": "Apuliya",
+   "ru": "Апулия",
+   "en": "Puglia"
+  },
+  "Trentino-Alto Adige": {
+   "az": "Trentino-Alto-Adije",
+   "ru": "Трентино-Альто-Адидже",
+   "en": "Trentino-Alto Adige"
+  },
+  "Hungary": {
+   "az": "Macarıstan",
+   "ru": "Венгрия",
+   "en": "Hungary"
+  },
+  "France": {
+   "az": "Fransa",
+   "ru": "Франция",
+   "en": "France"
+  },
+  "Loire": {
+   "az": "Luara",
+   "ru": "Луара",
+   "en": "Loire"
+  },
+  "Burgundy": {
+   "az": "Burqundiya",
+   "ru": "Бургундия",
+   "en": "Burgundy"
+  },
+  "Bordeaux": {
+   "az": "Bordo",
+   "ru": "Бордо",
+   "en": "Bordeaux"
+  },
+  "Provence": {
+   "az": "Provans",
+   "ru": "Прованс",
+   "en": "Provence"
+  },
+  "USA": {
+   "az": "ABŞ",
+   "ru": "США",
+   "en": "USA"
+  },
+  "California": {
+   "az": "Kaliforniya",
+   "ru": "Калифорния",
+   "en": "California"
+  },
+  "Spain": {
+   "az": "İspaniya",
+   "ru": "Испания",
+   "en": "Spain"
+  },
+  "Ribera del Duero": {
+   "az": "Ribera-del-Duero",
+   "ru": "Рибера-дель-Дуэро",
+   "en": "Ribera del Duero"
+  },
+  "Toro": {
+   "az": "Toro",
+   "ru": "Торо",
+   "en": "Toro"
+  },
+  "Portugal": {
+   "az": "Portuqaliya",
+   "ru": "Португалия",
+   "en": "Portugal"
+  }
+ },
+ "ui": {
+  "lang": {
+   "az": "Dil",
+   "ru": "Язык",
+   "en": "Language"
+  },
+  "draft": {
+   "az": "Konsept: Notes üçün təklif",
+   "ru": "Концепт: предложение для Notes",
+   "en": "Concept: a proposal for Notes"
+  },
+  "lead": {
+   "az": "Avropa müəllif mətbəxi, yerli dadlar və öz çörək sexi. Rəşid Behbudov, 41.",
+   "ru": "Авторская европейская кухня, местные вкусы и своя пекарня. Улица Рашида Бейбутова, 41.",
+   "en": "European author’s cuisine, local flavours and our own bakery. 41 Rashid Behbudov St."
+  },
+  "book": {
+   "az": "Masa sifarişi",
+   "ru": "Забронировать стол",
+   "en": "Book a table"
+  },
+  "toMenu": {
+   "az": "Menyu",
+   "ru": "Меню",
+   "en": "Menu"
+  },
+  "openUntil": {
+   "az": "İndi açıqdır, {t}-dək",
+   "ru": "Сейчас открыто, до {t}",
+   "en": "Open now, until {t}"
+  },
+  "closedOpens": {
+   "az": "İndi bağlıdır. Açılış: {t}",
+   "ru": "Сейчас закрыто. Откроемся в {t}",
+   "en": "Closed now. We open at {t}"
+  },
+  "scoreTitle": {
+   "az": "Günün notları",
+   "ru": "Ноты дня",
+   "en": "Today’s notes"
+  },
+  "scoreLead": {
+   "az": "Beş xətt, beş hissə: gün nota kimi oxunur. Mərcan xətti indiki andır.",
+   "ru": "Пять линий, пять частей дня: день читается как ноты. Коралловая черта показывает «сейчас».",
+   "en": "Five lines, five parts of the day, read like a score. The coral line marks now."
+  },
+  "nowPlaying": {
+   "az": "İndi səslənir: {list}",
+   "ru": "Сейчас звучат: {list}",
+   "en": "Now playing: {list}"
+  },
+  "quiet": {
+   "az": "İndi sakitlik. İlk not: {t}",
+   "ru": "Пока тишина. Первая нота в {t}",
+   "en": "Quiet for now. First note at {t}"
+  },
+  "and": {
+   "az": "və",
+   "ru": "и",
+   "en": "and"
+  },
+  "svcNow": {
+   "az": "indi, {b}-dək",
+   "ru": "сейчас, до {b}",
+   "en": "now, until {b}"
+  },
+  "svcLater": {
+   "az": "bu gün {a}–{b}",
+   "ru": "сегодня {a}–{b}",
+   "en": "today {a}–{b}"
+  },
+  "svcDone": {
+   "az": "bu günlük bitdi",
+   "ru": "на сегодня всё",
+   "en": "done for today"
+  },
+  "menuTitle": {
+   "az": "Menyu",
+   "ru": "Меню",
+   "en": "Menu"
+  },
+  "menuLead": {
+   "az": "Mətbəx və bar bir səhifədədir. Düymə axtarmaq lazım deyil: sadəcə aşağı sürüşdürün və ya hissəni seçin.",
+   "ru": "Кухня и бар на одной странице. Искать кнопки не нужно: просто листайте или выберите часть.",
+   "en": "Kitchen and bar on a single page. No buttons to hunt for: just scroll or pick a part."
+  },
+  "sigLegend": {
+   "az": "Not işarəsi Notes-un imza yeməklərini və içkilərini göstərir",
+   "ru": "Нотой отмечены фирменные блюда и напитки Notes",
+   "en": "The note marks Notes signature dishes and drinks"
+  },
+  "sig": {
+   "az": "Notes imzası",
+   "ru": "фирменное",
+   "en": "signature"
+  },
+  "fee": {
+   "az": "Hesaba 8% xidmət haqqı əlavə olunur.",
+   "ru": "К счёту добавляется 8% за обслуживание.",
+   "en": "An 8% service charge is added to the bill."
+  },
+  "cocktails": {
+   "az": "Kokteyllər",
+   "ru": "Коктейли",
+   "en": "Cocktails"
+  },
+  "barLead": {
+   "az": "Barın ideya müəllifi Vasiliy Jeqlovdur. Kart üç istiqamətdə qurulub: Aperitives & Breakfast, Fresh & Sour, Dessert & Strong Digestives.",
+   "ru": "Автор барной карты — Василий Жеглов. Карта выстроена в трёх направлениях: Aperitives & Breakfast, Fresh & Sour, Dessert & Strong Digestives.",
+   "en": "The bar is the work of Vasily Zheglov, built in three directions: Aperitives & Breakfast, Fresh & Sour, Dessert & Strong Digestives."
+  },
+  "wine": {
+   "az": "Şərab kartı",
+   "ru": "Винная карта",
+   "en": "Wine list"
+  },
+  "byGlass": {
+   "az": "Bokalla",
+   "ru": "Бокалом",
+   "en": "By the glass"
+  },
+  "glassLabel": {
+   "az": "bokal",
+   "ru": "бокал",
+   "en": "glass"
+  },
+  "bottleLabel": {
+   "az": "şüşə",
+   "ru": "бутылка",
+   "en": "bottle"
+  },
+  "wineAll": {
+   "az": "Bütün şərablar",
+   "ru": "Все вина",
+   "en": "All wines"
+  },
+  "spirits": {
+   "az": "Güclü içkilər",
+   "ru": "Крепкие напитки",
+   "en": "Spirits"
+  },
+  "pastryLead": {
+   "az": "Baş şirniyyatçı Qiqa Cobavanın desertləri öz seximizdə hazırlanır və hər gün vitrinada olur. Bu günün çeşidini ofisiantdan soruşun.",
+   "ru": "Десерты шеф-кондитера Гиги Джобавы готовят в нашем цехе, каждый день они на витрине. Что есть сегодня, подскажет официант.",
+   "en": "Head pastry chef Giga Jobava’s desserts are made in our own workshop and fill the counter every day. Ask your waiter what’s on today."
+  },
+  "aboutTitle": {
+   "az": "Haqqımızda",
+   "ru": "О Notes",
+   "en": "About Notes"
+  },
+  "about1": {
+   "az": "Notes — Avropa müəllif mətbəxinin ənənəvi dadlarla birləşdiyi qastronomik məkandır. Burada səhər yeməyinə gəlmək, işgüzar görüş keçirmək və günü romantik şam yeməyi ilə bitirmək olar.",
+   "ru": "Notes — гастрономическое место, где авторская европейская кухня встречается с традиционными вкусами. Сюда приходят на завтрак, на деловую встречу и на романтический ужин после долгого дня.",
+   "en": "Notes is a gastronomic place where European author’s cuisine meets traditional flavours: come for breakfast, a business meeting, or a romantic dinner after a long day."
+  },
+  "about2": {
+   "az": "İnteryer fransız bistrosu ilə rahat Avropa restoranını birləşdirir: eleqant klassika və müasir aksentlər. Dizayn — Maya Qrebenşikova və Yelena Pikovskaya, «Romb Design».",
+   "ru": "Интерьер соединяет французское бистро и уютный европейский ресторан: элегантная классика и современные акценты. Дизайн — Майя Гребенщикова и Елена Пиковская, «Romb Design».",
+   "en": "The interior blends a French bistro with a cosy European restaurant: elegant classics with modern accents. Designed by Maya Grebenshchikova and Elena Pikovskaya of Romb Design."
+  },
+  "terrace": {
+   "az": "Mövsümdə yaşıl terras açıqdır: şəhərin mərkəzində, amma səs-küydən uzaq.",
+   "ru": "В сезон открыта зелёная терраса: в самом центре, но вдали от шума.",
+   "en": "In season the green terrace is open: right in the centre, yet away from the noise."
+  },
+  "teamTitle": {
+   "az": "Komanda",
+   "ru": "Команда",
+   "en": "The team"
+  },
+  "afishaTitle": {
+   "az": "Afişa",
+   "ru": "Афиша",
+   "en": "What’s on"
+  },
+  "afishaSample": {
+   "az": "nümunə",
+   "ru": "пример",
+   "en": "sample"
+  },
+  "afishaName": {
+   "az": "DJ axşamı",
+   "ru": "Вечер с DJ",
+   "en": "DJ night"
+  },
+  "afishaWhen": {
+   "az": "Cümə, 21:00",
+   "ru": "Пятница, 21:00",
+   "en": "Friday, 21:00"
+  },
+  "afishaText": {
+   "az": "Burada həftənin tədbirləri olacaq: DJ axşamları, dequstasiyalar, şefin yenilikləri. Tədbiri bir neçə dəqiqəyə əlavə edirsiniz.",
+   "ru": "Здесь будут события недели: вечера с DJ, дегустации, новинки шефа. Событие добавляется за пару минут.",
+   "en": "This is where the week’s events go: DJ nights, tastings, the chef’s new dishes. Each takes a couple of minutes to add."
+  },
+  "contactsTitle": {
+   "az": "Əlaqə",
+   "ru": "Контакты",
+   "en": "Contacts"
+  },
+  "hours": {
+   "az": "İş saatları",
+   "ru": "Часы работы",
+   "en": "Opening hours"
+  },
+  "weekdays": {
+   "az": "Bazar ertəsi – cümə",
+   "ru": "Понедельник – пятница",
+   "en": "Monday – Friday"
+  },
+  "weekend": {
+   "az": "Şənbə – bazar",
+   "ru": "Суббота – воскресенье",
+   "en": "Saturday – Sunday"
+  },
+  "call": {
+   "az": "Zəng et",
+   "ru": "Позвонить",
+   "en": "Call"
+  },
+  "map": {
+   "az": "Xəritədə aç",
+   "ru": "Открыть карту",
+   "en": "Open the map"
+  },
+  "delivery": {
+   "az": "Çatdırılma",
+   "ru": "Доставка",
+   "en": "Delivery"
+  },
+  "waText": {
+   "az": "Salam! Notes-da masa sifariş etmək istəyirəm.",
+   "ru": "Здравствуйте! Хочу забронировать стол в Notes.",
+   "en": "Hello! I’d like to book a table at Notes."
+  },
+  "concept": {
+   "az": "Menyu, şəkillər və rəsmlər notes.az saytından götürülüb, qiymətlər təsdiq gözləyir.",
+   "ru": "Меню, фото и рисунки взяты с сайта notes.az, цены ждут подтверждения.",
+   "en": "Menu, photos and drawings are taken from notes.az; prices await confirmation."
+  },
+  "credit": {
+   "az": "Konsept və dizayn: {who}",
+   "ru": "Концепт и дизайн: {who}",
+   "en": "Concept and design: {who}"
+  },
+  "dockBook": {
+   "az": "Masa",
+   "ru": "Стол",
+   "en": "Table"
+  },
+  "upTo": {
+   "az": "Mündəricat",
+   "ru": "Оглавление",
+   "en": "Contents"
+  },
+  "whenWeek": {
+   "az": "Həftəiçi {a}–{b}, həftəsonu {c}–{d}",
+   "ru": "В будни {a}–{b}, в выходные {c}–{d}",
+   "en": "Weekdays {a}–{b}, weekends {c}–{d}"
+  },
+  "whenDaily": {
+   "az": "Hər gün {a}–{b}",
+   "ru": "Каждый день {a}–{b}",
+   "en": "Daily {a}–{b}"
+  },
+  "whenUntil": {
+   "az": "Hər gün {b}-dək",
+   "ru": "Каждый день до {b}",
+   "en": "Daily until {b}"
+  },
+  "stNow": {
+   "az": "İndi verilir",
+   "ru": "Сейчас подаём",
+   "en": "Serving now"
+  },
+  "stLater": {
+   "az": "Bu gün {t}-dən",
+   "ru": "Сегодня с {t}",
+   "en": "Today from {t}"
+  },
+  "stDone": {
+   "az": "Bu günə bitdi",
+   "ru": "На сегодня закончились",
+   "en": "Done for today"
+  },
+  "nowPlaying1": {
+   "az": "İndi səslənir: {list}",
+   "ru": "Сейчас звучит: {list}",
+   "en": "Now playing: {list}"
+  },
+  "closingSoon": {
+   "az": "Bağlanmağa {n} dəqiqə qalıb",
+   "ru": "До закрытия {n} мин",
+   "en": "Closing in {n} min"
+  },
+  "menuParts": {
+   "az": "Menyunun hissələri",
+   "ru": "Части меню",
+   "en": "Menu parts"
+  },
+  "drinksTitle": {
+   "az": "Qəhvə, çay və limonadlar",
+   "ru": "Кофе, чай и лимонады",
+   "en": "Coffee, tea & lemonades"
+  },
+  "addrLabel": {
+   "az": "Ünvan",
+   "ru": "Адрес",
+   "en": "Address"
+  },
+  "phoneLabel": {
+   "az": "Telefon",
+   "ru": "Телефон",
+   "en": "Phone"
+  },
+  "socialLabel": {
+   "az": "Sosial şəbəkələr",
+   "ru": "Соцсети",
+   "en": "Social"
+  },
+  "countForms": {
+   "az": "mövqe|mövqe|mövqe",
+   "ru": "позиция|позиции|позиций",
+   "en": "item|items|items"
+  },
+  "skip": {
+   "az": "Menyuya keç",
+   "ru": "Перейти к меню",
+   "en": "Skip to the menu"
+  }
+ },
+ "docTitle": {
+  "az": "Notes Gastronomy & Bar (konsept)",
+  "ru": "Notes Gastronomy & Bar (концепт)",
+  "en": "Notes Gastronomy & Bar (concept)"
+ }
+}

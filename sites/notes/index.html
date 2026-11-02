@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Черновик: пока Notes не согласовали сайт, поисковикам он закрыт. При запуске строку ниже убрать. -->
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14393F">
+<title>Notes Gastronomy &amp; Bar (konsept)</title>
+<!--@fonts-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--@include art/defs.svg-->
+<a class="skip" href="#menu" data-t="skip"></a>
+
+<!--
+  Как устроена страница. Вся она читается как партитура одного дня:
+  обложка, «Ноты дня» (что подают прямо сейчас), меню из четырёх частей
+  (I Утро, II День, III Вечер, IV Бар) с десертами между ними, затем
+  о Notes, команда, афиша и контакты. Тексты и цены лежат в data.json.
+-->
+
+<!-- 1. Обложка -->
+<header class="cover" id="top">
+  <div class="cover-ph" aria-hidden="true">
+    <img class="ph-a" id="cover-a" alt="">
+    <img class="ph-b" id="cover-b" alt="">
+  </div>
+  <div class="cover-top">
+    <p class="draft" id="draft" data-t="draft"></p>
+    <div class="lang" role="group" data-t-aria="lang">
+      <button type="button" data-lang="az" lang="az">az</button>
+      <button type="button" data-lang="ru" lang="ru">ru</button>
+      <button type="button" data-lang="en" lang="en">en</button>
+    </div>
+  </div>
+  <div class="cover-panel">
+    <h1 class="brand">
+      <!-- знак лежит на нотном стане: пять тонких линий за буквами -->
+      <svg class="logo" viewBox="0 0 1954 866.5" aria-hidden="true" focusable="false"><use href="#logo"/></svg>
+      <span class="vh">Notes Gastronomy &amp; Bar</span>
+    </h1>
+    <p class="tagline" lang="en">Notes of taste</p>
+    <p class="cover-lead" data-t="lead"></p>
+    <p class="status" id="status"><span class="dot" aria-hidden="true"></span><span id="status-t"></span></p>
+    <div class="acts">
+      <a class="btn btn-coral" id="book" target="_blank" rel="noopener" data-t="book"></a>
+      <a class="btn btn-line" href="#menu" data-t="toMenu"></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- 2. Ноты дня: пять линий стана — пять служб. Коралловая черта — «сейчас» по времени Баку -->
+  <section class="today" id="today" aria-labelledby="today-h">
+    <div class="wrap today-grid">
+      <div class="today-head">
+        <svg class="draw draw-note" viewBox="0 0 605.8 270.2" aria-hidden="true" focusable="false"><use href="#i-note"/></svg>
+        <h2 id="today-h" data-t="scoreTitle"></h2>
+        <p class="lead" data-t="scoreLead"></p>
+      </div>
+      <div class="score-box">
+        <div class="score" id="score">
+          <div class="axis" id="axis" aria-hidden="true"></div>
+          <div class="voices" id="voices"></div>
+          <div class="playhead" id="playhead" aria-hidden="true"><span id="playhead-t"></span></div>
+        </div>
+        <p class="playing" id="playing"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Меню: оглавление частей. Сюда ведёт QR-код со стола (адрес …#menu) -->
+  <section class="menu-head" id="menu" aria-labelledby="menu-h" tabindex="-1">
+    <div class="wrap menu-grid">
+      <div class="menu-intro">
+        <svg class="draw draw-cloche" viewBox="0 0 601.2 203" aria-hidden="true" focusable="false"><use href="#i-cloche"/></svg>
+        <h2 id="menu-h" data-t="menuTitle"></h2>
+        <p class="lead" data-t="menuLead"></p>
+        <p class="legend"><svg class="sig" viewBox="0 0 12 20" aria-hidden="true" focusable="false"><use href="#sig"/></svg><span data-t="sigLegend"></span></p>
+      </div>
+      <nav class="index-nav" data-t-aria="menuParts">
+        <ol class="index" id="index"></ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Части меню (I–IV и десерты) строит app.js из data.json -->
+  <div id="movements"></div>
+
+  <!-- 4. О Notes -->
+  <section class="about" id="about" aria-labelledby="about-h">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <svg class="draw draw-lamp" viewBox="0 0 605.8 445" aria-hidden="true" focusable="false"><use href="#i-lamp"/></svg>
+        <h2 id="about-h" data-t="aboutTitle"></h2>
+        <p data-t="about1"></p>
+        <p data-t="about2"></p>
+      </div>
+      <div class="about-ph" id="about-ph"></div>
+    </div>
+  </section>
+
+  <!-- 5. Команда -->
+  <section class="team" id="team" aria-labelledby="team-h">
+    <div class="wrap">
+      <div class="team-head">
+        <h2 id="team-h" data-t="teamTitle"></h2>
+        <svg class="draw draw-hat" viewBox="0 0 605.8 216" aria-hidden="true" focusable="false"><use href="#i-hat"/></svg>
+      </div>
+      <ul class="crew" id="crew"></ul>
+    </div>
+  </section>
+
+  <!-- 6. Афиша: образец того, как будут выглядеть события -->
+  <section class="afisha" id="afisha" aria-labelledby="afisha-h">
+    <div class="wrap afisha-grid">
+      <div>
+        <h2 id="afisha-h"><span data-t="afishaTitle"></span> <span class="sample" data-t="afishaSample"></span></h2>
+        <p class="ev-when" data-t="afishaWhen"></p>
+        <p class="ev-name" data-t="afishaName"></p>
+        <p class="ev-text" data-t="afishaText"></p>
+      </div>
+      <svg class="draw draw-fire" viewBox="0 0 601.8 360.2" aria-hidden="true" focusable="false"><use href="#i-fireworks"/></svg>
+    </div>
+  </section>
+</main>
+
+<!-- 7. Контакты -->
+<footer class="contacts night" id="contacts" aria-labelledby="contacts-h">
+  <div class="wrap">
+    <div class="ct-head">
+      <h2 id="contacts-h" data-t="contactsTitle"></h2>
+      <svg class="draw draw-pin" viewBox="0 0 605.8 326.8" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
+    </div>
+    <div class="ct-grid">
+      <div class="ct">
+        <h3 data-t="addrLabel"></h3>
+        <p class="ct-big" id="ct-addr"></p>
+        <a class="btn btn-line" id="ct-map" target="_blank" rel="noopener" data-t="map"></a>
+      </div>
+      <div class="ct">
+        <h3 data-t="hours"></h3>
+        <dl class="hours">
+          <div><dt data-t="weekdays"></dt><dd id="h-wd"></dd></div>
+          <div><dt data-t="weekend"></dt><dd id="h-we"></dd></div>
+        </dl>
+        <p class="ct-status" id="ct-status"></p>
+      </div>
+      <div class="ct">
+        <h3 data-t="phoneLabel"></h3>
+        <p class="ct-big"><a id="ct-tel"></a></p>
+        <p><a id="ct-mail"></a></p>
+        <div class="acts">
+          <a class="btn btn-coral" id="ct-wa" target="_blank" rel="noopener" data-t="book"></a>
+          <a class="btn btn-line" id="ct-call" data-t="call"></a>
+        </div>
+      </div>
+      <div class="ct">
+        <h3 data-t="socialLabel"></h3>
+        <ul class="links">
+          <li><a id="ct-ig" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a id="ct-fb" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a id="ct-yt" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a id="ct-dl" target="_blank" rel="noopener" data-t="delivery"></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fee" data-t="fee"></p>
+    <div class="ct-foot">
+      <svg class="logo-s" viewBox="0 0 1954 866.5" aria-hidden="true" focusable="false"><use href="#logo"/></svg>
+      <div class="lang" role="group" data-t-aria="lang">
+        <button type="button" data-lang="az" lang="az">az</button>
+        <button type="button" data-lang="ru" lang="ru">ru</button>
+        <button type="button" data-lang="en" lang="en">en</button>
+      </div>
+      <p class="fine"><span data-t="concept"></span> <span id="credit"></span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Плавающая пара кнопок: появляется, когда обложка ушла вверх -->
+<nav class="pill" id="pill" data-t-aria="upTo">
+  <a href="#menu" data-t="upTo"></a>
+  <a id="pill-book" target="_blank" rel="noopener" data-t="dockBook"></a>
+</nav>
+
+<!--@data-->
+<script src="photos.js"></script>
+<script src="../../shared/core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
